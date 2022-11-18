@@ -7,9 +7,13 @@ import CreateArea from "./CreateArea";
 
 
 const App = ()=>{
+     function handleAdd(NoteItem){
+          console.log(NoteItem);
+     }
+
      return <>
      <Header/>
-     <CreateArea/>
+     <CreateArea onAdd = {handleAdd}/>
      <Notes key={1} title="Note title" content="Note content" />
      <Footer/>
      </>        
