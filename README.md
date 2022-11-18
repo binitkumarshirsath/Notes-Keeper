@@ -1,1 +1,5 @@
-#Set up structure and css![Screenshot (13)](https://user-images.githubusercontent.com/90555753/202509181-bb927e92-23ab-4b37-9b94-e118dada04c3.png)
+
+
+Preview
+
+![Screenshot (15)](https://user-images.githubusercontent.com/90555753/202631599-9163acb0-ee71-46d6-a2d9-270d30ecce5d.png)
