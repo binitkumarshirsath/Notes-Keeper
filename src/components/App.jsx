@@ -17,11 +17,16 @@ const App = ()=>{
 
      }
 
+     function handleDelete(id){
+          setNotesArray(notesArray.filter((noteItems,i)=>{
+               return i !== id;
+          }))
+     }
      return <>
      <Header/>
      <CreateArea onAdd = {handleAdd}/>
 
-     {notesArray.map((noteItems , i)=>{ return <Notes id = {i} key = {i} title = {noteItems.title} content = {noteItems.content}/>})}
+     {notesArray.map((noteItems , i)=>{ return <Notes id = {i} key = {i} title = {noteItems.title} content = {noteItems.content} onDelete = {handleDelete}/>})}
      <Footer/>
      </>        
 }
