@@ -1,8 +1,8 @@
 import React from "react";
-
+import DescriptionIcon from '@mui/icons-material/Description';
 const  Header= ()=>{
     return <header>
-        <h1>Notes Keeper</h1>
+        <h1><DescriptionIcon/>Notes Keeper</h1>
     </header>
     
     
